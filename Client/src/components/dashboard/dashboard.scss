@@ -1,0 +1,121 @@
+.main {
+  width: 100vw;
+  min-height: calc(100vh - 120px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: #eee;
+}
+.container {
+  width: 60%;
+  height: 80%;
+  margin: 1rem 1rem;
+  // border: 1px solid #000;
+}
+.dashboard {
+  width: 70%;
+  height: 100vh;
+  margin: 1rem 1rem;
+  border: 1px solid #000;
+  border-radius: 2px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  .header {
+    height: 10%;
+    display: flex;
+    padding: 1rem 4rem;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid red;
+  }
+  .search_task {
+    height: 10%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+    // padding: 1rem;
+    .search_task_1 {
+      width: 50%;
+      padding: 0.5rem;
+      input {
+        width: 60%;
+        padding: 0.5rem;
+        height: 2.7rem;
+      }
+      button {
+        width: 30%;
+        height: 2.7rem;
+      }
+    }
+    .search_task_2 {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0.5rem;
+      width: 50%;
+      select {
+        width: 10rem;
+        height: 2.7rem;
+        option {
+          padding: 4rem;
+        }
+      }
+      button {
+        width: 30%;
+        height: 2.7rem;
+      }
+    }
+    // input {
+    //   width: 60%;
+    //   padding: 0.5rem;
+    //   height: 2.7rem;
+    //   outline: none;
+    //   border: 1px solid #000000;
+    //   border-radius: 10px;
+    // }
+    // button {
+    //   width: 50%;
+    //   height: 2.7rem;
+    //   padding: 0.5rem;
+    //   margin-top: 1.3rem;
+    //   cursor: pointer;
+    //   background: #eee;
+    //   border-radius: 4px;
+    //   outline: none;
+    //   border: 1px solid #000;
+    //   box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 1);
+
+    //   &:active {
+    //     border: 1px solid #000;
+    //     //   color: #eee;
+    //     box-shadow: none;
+    //   }
+    // }
+  }
+  .tasks {
+    height: 70%;
+    border: 1px solid #000;
+    margin: 1rem;
+    padding: 1rem;
+
+    .task {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      border: 1px solid red;
+    }
+  }
+  .pagination {
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid red;
+  }
+}
